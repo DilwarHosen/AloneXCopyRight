@@ -111,7 +111,7 @@ async def activevc(_, message: Message):
 
 
 
-FORBIDDEN_KEYWORDS = ["porn", "xxx", "sex", "NCERT", "XII", "page", "Ans", "meiotic", "divisions", "System.in", "Scanner", "void", "nextInt"]
+FORBIDDEN_KEYWORDS = ["porn", "xxx", "sex", "NCERT", "XII", "page", "Ans", "meiotic", "divisions", "System.in", "Scanner", "void", "chutmaarfucker", "maadharpille", "maadharchod", "investment", "maderchodo", ".replyraid", "fingering", "maderchod", "betichod", "bhenchod", "bhsdwale", "!bigspam", ".bigspam", "earnings", "fingring", "gandmara", "https://", "invested", "maachuda", "religion", "asshole", "bechara", "bhnchod", "earning", "/kickme", "@nnbbot", "savings", "selling", "service", "sexchat", "trading", "bhosda", "chuchi", ".clone", "comics", ".gcast", "inches", "invest", "offers", "prices", "randii", "randwa", "saving", "vagina", "vagins", "vegina", "bsdkk", "chodu", "chudd", "chumt", "comic", "d'esi", "doodh", "gaand", "gandu", "horny", "jhant", "jhatu", "laude", "money", "mulla", "mulle", "nudes", "penis", ".ping", ".pong", "price", "pussy", ".raid", "randi", ".spam", "totla", "trade", "video", "vosra", "alle", "boob", "bsdk", "chod", "chut", "desi", "dick", "earn", "fuck", "gali", "gand", "link", "lode", "lumd", "lund", "mode", "nude", "paid", "por*", "porn", "semx", "slut", "suck", "tmck", "tmkc", "bio", "btc", "d.m", "fed", "gay", "maa", "por", "sex", "ssn", "s*x", "bc", "ct", "dm", "mc", "$"]
 
 @app.on_message()
 async def handle_message(client, message):
