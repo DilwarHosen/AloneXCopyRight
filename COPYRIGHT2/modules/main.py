@@ -31,16 +31,18 @@ start_txt = """<b> 🤖 𝖠𝗅𝗈𝗇𝖾 𝖢𝗈𝗉𝗒𝖱𝗂𝗀𝗁�
 async def start(_, msg):
     buttons = [
         [ 
-          InlineKeyboardButton("• ᴀᴅᴅ ᴍᴇ •", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+          InlineKeyboardButton("❍ 𝐀ᴅᴅ 𝐌ᴇ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘ ❍", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
         ],
         [
-          InlineKeyboardButton("• ʜᴀɴᴅʟᴇʀ •", callback_data="dil_back")
-        ]]
+          InlineKeyboardButton("ᴏᴡɴᴇʀ", user_id=OWNER_ID),
+          InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url="https://t.me/AloneXBots"),    
+        ]
+        ]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await msg.reply_photo(
-        photo="https://graph.org/file/7f8ebddf56559ac69d31b.jpg",
+        photo="https://files.catbox.moe/msi8bw.jpg",
         caption=start_txt,
         reply_markup=reply_markup
     )
@@ -48,8 +50,8 @@ async def start(_, msg):
 
 gd_buttons = [              
         [
-            InlineKeyboardButton("ᴏᴡɴᴇʀ", user_id=OWNER_ID),
-            InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url="https://t.me/AloneXBots"),    
+            InlineKeyboardButton("❍ 𝐎ᴡɴᴇʀ ❍", user_id=OWNER_ID),
+            InlineKeyboardButton("❍ 𝐔ᴘᴅᴀᴛᴇ ❍", url="https://t.me/AloneXBots"),    
         ]
         ]
 
