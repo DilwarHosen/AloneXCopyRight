@@ -34,8 +34,8 @@ async def start(_, msg):
           InlineKeyboardButton("❍ 𝐀ᴅᴅ 𝐌ᴇ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘ ❍", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
         ],
         [
-          InlineKeyboardButton("ᴏᴡɴᴇʀ", user_id=OWNER_ID),
-          InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url="https://t.me/AloneXBots"),    
+          InlineKeyboardButton("❍ 𝐎ᴡɴᴇʀ ❍", user_id=OWNER_ID),
+          InlineKeyboardButton("❍ 𝐔ᴘᴅᴀᴛᴇ ❍", url="https://t.me/AloneXBots"),    
         ]
         ]
     
